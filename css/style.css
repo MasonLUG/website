@@ -97,3 +97,21 @@ span.right
 {
     text-align: right;
 }
+
+.frontImg {
+   width: 100%;
+   text-align: center;
+}
+
+.frontImg img {
+    width: 80%;
+    padding: 1px;
+    border: solid 1px #b6b6b6;
+}
+
+.frontImg .caption {
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 5px;
+    font-size: 13px;
+}
