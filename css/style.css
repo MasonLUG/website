@@ -115,3 +115,20 @@ span.right
     margin-top: 5px;
     font-size: 13px;
 }
+#schedule {
+    width: 100%;
+}
+
+#schedule tr td:nth-child(1) {
+    width: 45%;
+}
+#schedule tr td:nth-child(2) {
+    width: 25%;
+}
+#schedule tr td:nth-child(3) {
+    width: 30%;
+}
+
+#schedule tr:nth-child(2n-1) {
+	background-color: #ecece1;
+}
